@@ -1,10 +1,10 @@
 # Exercise-27
 
-## Aim:
+# Aim:
 
 To create a Hospital application using SpringBoot and SQL.
 
-## Algorithm:
+# Algorithm:
 
 1.Open Spring Initialzr.
 
@@ -18,9 +18,9 @@ To create a Hospital application using SpringBoot and SQL.
 
 6.Connect the database with the SpringBoot.
 
-## Program:
+# Program:
 
-Hospital.java
+## Hospital.java:
 ```
 package com.hospital.hosman.hos;
 
@@ -115,7 +115,7 @@ public class Hosman {
 
 ```
 
-applications.properties
+## applications.properties:
 ```
 spring.datasource.url=jdbc:postgresql://localhost:5432/hosman_db
 spring.datasource.username=postgres
@@ -127,7 +127,7 @@ spring.jpa.properties.hibernate.format_sql=true
 
 ```
 
-App.js
+## App.js:
 ```
 import React from "react"
 import './App.css';
@@ -162,10 +162,8 @@ export default App;
 ```
 
 ## Output:
+![image](https://github.com/SOMEASVAR/Hospital-Management/assets/93434149/e16f63bf-246b-4d6b-89b7-ba8dd3738f04)
 
-
-
-![Screenshot (4)](https://github.com/SaiDarshan2003/Hospital-Management/assets/94692595/495855e6-1e0a-43bb-a37d-ceeeba721c12)
 
 
 
